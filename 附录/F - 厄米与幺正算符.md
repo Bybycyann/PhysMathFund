@@ -105,12 +105,14 @@ $$
 **性质3. 本征矢构成一组完备的正交归一基 (谱定理)**
 
 若 $\{\ket{n}\}$ 是算符 $\hat{\boldsymbol{A}}$ 的一组归一化本征态，如果它们是完备的，则单位算符可以写为：
+
 $$
 \begin{align}
 \sum_n{\ket{n}\bra{n}} = \hat{\boldsymbol{I}}
 \end{align}
 \tag{7}
 $$
+
 这意味着任何态 $\ket{\psi}$ 都可以通过左乘单位算符来展开 $\ket{\psi} = \hat{\boldsymbol{I}}\ket{\psi} = \sum_n{\ket{n}\braket{n|\psi}}$。
 
 ## 幺正算符
